@@ -3,14 +3,64 @@ languageCode = 'zh-cn'
 title = 'DerFuning 的技术博客'
 theme = 'PaperMod'
 
+[markup.highlight]
+noClasses = false
+[markup.goldmark.renderer]
+unsafe = true
+
 [params]
 env = "production"
 author = "DerFuning"
 defaultTheme = "auto"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = true
+tocopen = false
+
+[params.label]
+text = "Home"
+icon = "/apple-touch-icon.png"
+iconHeight = 35
 
 [params.homeInfoParams]
-Title = "欢迎来到我的技术博客"
-Content = "分享技术心得、踩坑经验和学习笔记"
+Title = "欢迎来到我的技术博客 ✨"
+Content = """
+这里是我分享技术心得、学习笔记和踩坑经验的地方。
+
+### 🚀 技术栈
+- JavaScript / TypeScript
+- Node.js / Deno
+- React / Vue
+- Hugo / 静态站点
+
+### 📝 写作方向
+- 前端开发技巧
+- 全栈开发实践
+- 开源项目分享
+- 学习心得总结
+
+### 📮 联系方式
+- GitHub: [@DerFuning](https://github.com/DerFuning)
+"""
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/DerFuning"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:vdaoren@163.com"
 
 [[menu.main]]
 name = "文章"
@@ -21,3 +71,8 @@ weight = 1
 name = "标签"
 url = "/tags/"
 weight = 2
+
+[[menu.main]]
+name = "分类"
+url = "/categories/"
+weight = 3

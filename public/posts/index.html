@@ -100,7 +100,9 @@
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://derfuning.github.io/" accesskey="h" title="DerFuning 的技术博客 (Alt + H)">DerFuning 的技术博客</a>
+            <a href="https://derfuning.github.io/" accesskey="h" title="Home (Alt + H)">
+                <img src="https://derfuning.github.io/apple-touch-icon.png" alt="" aria-label="logo"
+                    height="35">Home</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -135,13 +137,26 @@
                     <span>标签</span>
                 </a>
             </li>
+            <li>
+                <a href="https://derfuning.github.io/categories/" title="分类">
+                    <span>分类</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header">
+<header class="page-header"><div class="breadcrumbs"><a href="https://derfuning.github.io/">Home</a></div>
   <h1>
     Posts
+    <a href="/posts/index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
   </h1>
 </header>
 
@@ -151,12 +166,13 @@
     </h2>
   </header>
   <div class="entry-content">
-    <p>欢迎来到我的技术博客！这是我使用 Hugo 搭建的第一篇文章。
-关于这个博客 这是一个基于 Hugo 的静态站点，部署在 GitHub Pages 上。
-后续计划 分享技术心得和踩坑经验 记录学习笔记 探索有趣的开源项目 敬请期待！
-</p>
+    <p>欢迎来到我的技术博客！🎉 这是我使用 Hugo 搭建的第一篇文章。
+为什么搭建这个博客？ 作为一名热爱技术的开发者，我一直希望有一个属于自己的地方来记录和分享学习心得。这个博客就是我的起点。
+技术选型 这个博客使用了以下技术栈：
+技术 说明 Hugo 超快的静态站点生成器 PaperMod 简洁优雅的 Hugo 主题 GitHub Pages 免费的静态网站托管 GitHub Actions 自动化构建和部署 后续计划 ✅ 搭建基础博客 🔄 完善主题配置 ⏳ 分享技术心得和踩坑经验 ⏳ 记录学习笔记 ⏳ 探索有趣的开源项目 欢迎交流 如果你对任何话题感兴趣，欢迎在 GitHub 上联系我，或者期待我的后续文章！
+git clone https://github.com/DerFuning/DerFuning.github.io.git </p>
   </div>
-  <footer class="entry-footer"><span title='2026-02-11 22:14:05 +0800 CST'>February 11, 2026</span>&nbsp;·&nbsp;<span>DerFuning</span></footer>
+  <footer class="entry-footer"><span title='2026-02-11 22:14:05 +0800 CST'>February 11, 2026</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>40 words</span>&nbsp;·&nbsp;<span>DerFuning</span></footer>
   <a class="entry-link" aria-label="post link to 第一篇博客文章" href="https://derfuning.github.io/posts/first-post/"></a>
 </article>
     </main>

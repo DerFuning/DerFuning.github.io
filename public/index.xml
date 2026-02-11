@@ -13,16 +13,7 @@
       <link>https://derfuning.github.io/posts/first-post/</link>
       <pubDate>Wed, 11 Feb 2026 22:14:05 +0800</pubDate>
       <guid>https://derfuning.github.io/posts/first-post/</guid>
-      <description>&lt;p&gt;欢迎来到我的技术博客！这是我使用 Hugo 搭建的第一篇文章。&lt;/p&gt;
-&lt;h2 id=&#34;关于这个博客&#34;&gt;关于这个博客&lt;/h2&gt;
-&lt;p&gt;这是一个基于 Hugo 的静态站点，部署在 GitHub Pages 上。&lt;/p&gt;
-&lt;h2 id=&#34;后续计划&#34;&gt;后续计划&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;分享技术心得和踩坑经验&lt;/li&gt;
-&lt;li&gt;记录学习笔记&lt;/li&gt;
-&lt;li&gt;探索有趣的开源项目&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;敬请期待！&lt;/p&gt;</description>
+      <description>欢迎来到我的技术博客，这里是我分享技术心得、学习笔记和踩坑经验的地方。</description>
     </item>
   </channel>
 </rss>
