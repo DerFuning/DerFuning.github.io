@@ -23,6 +23,7 @@ UseHugoToc = true
 disableSpecial1stPost = false
 disableScrollToTop = false
 comments = false
+disableComments = false
 hidemeta = false
 hideSummary = false
 showtoc = true
