@@ -1,0 +1,4 @@
+baseURL = 'https://derfuning.github.io/'
+languageCode = 'zh-cn'
+title = 'DerFuning 的技术博客'
+theme = 'hugo-geekdoc'
